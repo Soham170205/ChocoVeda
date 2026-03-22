@@ -1,0 +1,87 @@
+✅ Step 1: Push to GitHub
+git init
+git add .
+git commit -m "chocoveda site"
+git branch -M main
+git remote add origin YOUR_REPO
+git push -u origin main
+🚀 Step 2: Deploy
+
+Go to:
+👉 https://vercel.com
+
+Then:
+
+Import repo
+Click deploy
+
+👉 DONE (live link generated)
+
+
+
+
+
+
+
+🚀 STEP 1: Create GitHub Repo
+👉 Go to:
+
+https://github.com
+
+Then:
+Click “New Repository”
+
+Name it:
+
+chocoveda
+Keep it:
+✅ Public (or Private if client wants)
+Click Create Repository
+💻 STEP 2: Connect Your Project to GitHub
+
+Open terminal inside your project folder (chocoveda)
+
+🔗 Initialize Git
+git init
+📦 Add All Files
+git add .
+📝 First Commit
+git commit -m "initial chocoveda website"
+🌿 Set Main Branch
+git branch -M main
+🔗 Connect to GitHub Repo
+
+👉 Copy your repo URL (from GitHub)
+
+It looks like:
+
+https://github.com/yourusername/chocoveda.git
+
+Then run:
+
+git remote add origin YOUR_REPO_URL
+🚀 Push Code
+git push -u origin main
+⚠️ If Error Comes (First Time Git User)
+
+If you see identity error:
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+Then repeat commit + push
+
+🌐 STEP 3: Deploy on Vercel (SUPER EASY)
+👉 Go to:
+
+https://vercel.com
+
+Steps:
+Login with GitHub
+Click “Add New Project”
+Select your repo (chocoveda)
+Click Deploy
+🎯 DONE
+
+In ~30 seconds you’ll get:
+👉 https://chocoveda.vercel.app
